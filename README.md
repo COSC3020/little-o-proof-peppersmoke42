@@ -29,4 +29,7 @@ Claim: prove that if $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
 2. Since we want to prove $f(n)\in O(g(n))$, we must define constants $C'$ and $n_0'$.
     We will define them with the same values, i.e. $C=C'$ and $n_0=n_0'$
 
-3. Since $f(n)\in o(g(n))$, then $f(n) < Cg(n)$ forall $n\ge n_0$
+3. Since $f(n)\in o(g(n))$, then $f(n) < Cg(n)$ for all $n\ge n_0$, it logically
+    follows that $f(n) < C'g(n)$ for all $n\ge n_0'$
+
+4. ∴
