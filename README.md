@@ -23,5 +23,7 @@ $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 Claim: prove that if $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
 
 1. Assume the first statement, $f(n)\in o(g(n))$, is true
-    By definition, for any positive constant $C$, there exists a constant $n0$,
-    such that $\forall n\ge n_0: f(n) < c|g(n)|$
+    This implies that for any positive constant $C$, there exists a constant $n0$,
+    such that $\forall n\ge n_0$, $f(n) < C|g(n)|$
+
+2. Since we want to prove $f(n)\in O(g(n))$, we must define constants $C'$ and $n'0$
