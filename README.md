@@ -16,8 +16,12 @@ markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
+// Credit to ChatGPT for teaching me proof notation
+
+Little o formal definition:
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
+Big O formal definiton:
 $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
 Claim: prove that if $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
@@ -32,4 +36,4 @@ Claim: prove that if $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
 3. Since $f(n)\in o(g(n))$, then $f(n) < Cg(n)$ for all $n\ge n_0$, it logically
     follows that $f(n) < C'g(n)$ for all $n\ge n_0'$
 
-4. ∴
+4. Therefore, by the formal definition of $O$, if $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
