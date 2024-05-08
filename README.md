@@ -27,3 +27,4 @@ Claim: prove that if $f(n)\in o(g(n))$, then $f(n)\in O(g(n))$
     such that $\forall n\ge n_0$, $f(n) < C|g(n)|$
 
 2. Since we want to prove $f(n)\in O(g(n))$, we must define constants $C'$ and $n_0'$
+    We will define them with the same values, i.e. $C=C'$ and $n_0=n_0'$
